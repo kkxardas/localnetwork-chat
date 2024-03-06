@@ -14,7 +14,7 @@ namespace Register.res
         public DbSet<Messages>? Messages { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"DATA SOURCE=mssql-164908-0.cloudclusters.net,15422; DATABASE=LoginFormDB; UID=admin; PWD=Password123; TrustServerCertificate=True;");
+            options.UseSqlServer(@"DATA SOURCE=[Server Name]; DATABASE=[Database Name]; UID=[Username]; PWD=[Password]; TrustServerCertificate=True;");
         }
     }
 }
