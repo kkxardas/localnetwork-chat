@@ -50,8 +50,8 @@ namespace Register
         public string strAddress = "smtp.gmail.com";
         public int port = 587;
         public bool enableSSL = true;
-        public static string userName = "pavlogallimurka@gmail.com";
-        public static string emailFrom = "pavlogallimurka@gmail.com";
+        public static string userName = "[Your email here]";
+        public static string emailFrom = "[Your email here]";
         public static string nickname = "DiscordClone";
         public MailAddress from = new MailAddress(emailFrom, nickname);
 
@@ -59,7 +59,7 @@ namespace Register
 
         public int confirmCode = 1000;
 
-        public string appPassword = "whtr lzfw vrry ekzq";
+        public string appPassword = "[Your application password here]";
         public LogUp() {
 
             InitializeComponent();
